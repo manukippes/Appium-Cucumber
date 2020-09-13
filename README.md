@@ -23,9 +23,13 @@ b. PATH: <br>
 5. Instalar Appium: npm install -g appium
 6. Instalar Appium-Doctor: npm install -g appium-doctor<br>
  a. Verificar que Appium esta configurado correctamente con el comando: appium-doctor
-7.Para instalar Allure Report: <br>
+7. Para instalar Allure Report: <br>
 a. Descargar scoop <br>
 b. Instalar Allure: scoop install allure
+
+Abrir emulador de android:
+1. Posicionarse en la carpeta: AppData/Local/Android/Sdk/emulator
+2. Ejecutar comando: ./emulator.exe -avd <NombreDelEmulador Ejemplo:Pixel3_Google9>
 
 Ejecutar pruebas:
 - mvn clean test (basica)
