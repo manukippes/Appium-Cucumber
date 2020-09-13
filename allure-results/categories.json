@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Test ingnorados", 
+    "matchedStatuses": ["skipped"] 
+  },
+  {
+    "name": "Error: Fallo de Assert",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Error: Elemento no encontrado",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Test finalizados correctamente",
+    "matchedStatuses": ["passed"]
+  },
+  {
+    "name": "Elemento no encontrado",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*NoSuchElementException.*" 
+  },
+  {
+    "name": "Error: Elemento no visible",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*ElementNotVisibleException.*" 
+  },
+  {
+    "name": "Error: Tiempo de espera espiro",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*TimeoutException.*" 
+  },
+  {
+    "name": "Test desactualizados",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*FileNotFoundException.*" 
+  }
+]
