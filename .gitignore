@@ -1,3 +1,4 @@
+/allure-results/
 /target/
 /test-output/
 *.pydevproject
