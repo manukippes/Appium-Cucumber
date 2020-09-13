@@ -27,7 +27,7 @@ public class Soporte {
 	
 	/**
 	 * @Definición:  Devuelve la ruta completa (C:\\....) de la carpeta image dentro de recursos.
-	 * @return -- Ruta completa. Ejemplo: C:\Emmanuel\SQA_Automatizaciones\template\src\test\resources\image
+	 * @return -- Ruta completa. Ejemplo: C:\...\...\template\src\test\resources\image
 	 * @throws Exception
 	 */
 	public String getRutaDeCarpetaImage() throws Exception {
@@ -38,7 +38,7 @@ public class Soporte {
 	
 	/**
 	 * @Devuelve la ruta completa (C:\\....) de la carpeta drivers dentro de recursos.
-	 * @return -- Ruta completa. Ejemplo: C:\Emmanuel\SQA_Automatizaciones\template\src\test\resources\drivers
+	 * @return -- Ruta completa. Ejemplo: C:\...\...\template\src\test\resources\drivers
 	 * @throws Exception
 	 */
 	public String getRutaDeCarpetaDrivers() throws Exception {
